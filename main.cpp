@@ -1,25 +1,19 @@
 #include <iostream>
-
 using namespace std;
+int main (){
+    int r;
+    float phi=3.14,luas,keliling;
 
- int suku, a, b, c;
+    cout<<"masukan jari jari lingkaran : ";
+    cin>>r;
+    cout<<endl;
 
-     int main()
-     {
-     cout<<"Membuat fungsi rekursif dengan cara interaktif\n";
-     cout<<"Masukkan nilai suku ke-: ";cin>>suku;
+    luas=phi*r*r;
+    keliling=2*phi*r;
 
-     cout<<"Bilangannya adalah: \n";
-     a=suku;b=suku;
-     cout<<a<<endl;
-
-     for(int i=1; i<=suku; i++)
-    {
-    c = a * b;
-    a = b;
-    b = c;
-
-     cout<<c<<endl;
-     }
+    cout<<"luas lingkaran adalah : " <<luas<<endl;
+    cout<<endl;
+    cout<<"keliling lingkarn adalah : " <<keliling<<endl;
     return 0;
-     }
+
+}

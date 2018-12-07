@@ -1,0 +1,10 @@
+Pseudocode (rekursif dengan mencari luas dan keliling lingkaran):
+
+fungsi faktorial adalah:integer phi dan r
+Input: integer r sehingga r> 0
+Output: luas = phi*r*r
+	keliling =phi*r+r
+
+    1. jika r adalah 0,maka false 
+    2. jika tidak, maka [luas = phi*r*r]
+			[keliling =phi*r+r]
