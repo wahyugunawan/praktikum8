@@ -1,0 +1,8 @@
+Pseudocode (rekursif dengan cara interaktif):
+
+fungsi faktorial adalah:integer suku
+Input: integer i sehingga i>= 0
+Output: [i x (i ke-1) x (i ke-2) x ... xi ke-suku]
+
+    1. jika i adalah 0, kembali 1
+    2. jika tidak, kembali [i × faktorial (suku-1)]

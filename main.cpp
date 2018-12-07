@@ -6,15 +6,16 @@ using namespace std;
 
      int main()
      {
-     cout<<"Membuat fungsi rekursif dengan cara penjumlahan\n";
+     cout<<"Membuat fungsi rekursif dengan cara interaktif\n";
      cout<<"Masukkan nilai suku ke-: ";cin>>suku;
 
      cout<<"Bilangannya adalah: \n";
-     a=0;b=1;
+     a=suku;b=suku;
+     cout<<a<<endl;
 
      for(int i=1; i<=suku; i++)
     {
-    c = a + b;
+    c = a * b;
     a = b;
     b = c;
 
